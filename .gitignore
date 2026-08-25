@@ -1,0 +1,17 @@
+# Local secrets
+.env.local
+.env.*.local
+
+# Dependencies and generated build output
+node_modules/
+.next/
+.pnpm-store/
+
+# Generated local artifacts
+data/rag-index.json
+test-results/
+playwright-report/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
